@@ -1,5 +1,7 @@
 <?php
 //these can be moved to a global config file test
+
+//TEST BRANCH 
 $absPath = $_SERVER['DOCUMENT_ROOT'] . ((substr($_SERVER['DOCUMENT_ROOT'], -1) != '/') ? '/' : '') .'weather/';
 if(!defined("_FRAMEWORK_ABSOLUTE_PATH"))        define("_FRAMEWORK_ABSOLUTE_PATH", $absPath);
 
